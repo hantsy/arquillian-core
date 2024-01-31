@@ -1,0 +1,510 @@
+repo_name: hantsy/arquillian-core
+report_id: b03402d8456c1e5add6166c31223f31e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:35:39+00:00'
+requested_by: starksm64
+provider: github
+branch: master
+detected_tools_count: 40
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hantsy/arquillian-core
+  detection_source: Repo Metadata
+- name: Java EE
+  description: The standard in community-driven enterprise software
+  website_url: http://www.oracle.com/technetwork/java/javaee/overview/index.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4522/652rxwyK_400x400.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/impl-base/pom.xml
+  detection_source: container/impl-base/pom.xml
+  last_updated_by: Aslak Knutsen
+  last_updated_on: 2011-04-26 13:53:15.000000000 Z
+- name: Apache Maven
+  description: 'Apache build manager for Java projects. '
+  website_url: http://maven.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/.mvn/maven.config
+  detection_source: ".mvn/maven.config"
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-07-11 17:46:31.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2020-07-06 15:55:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/arquillian-core
+  detection_source: Repo Metadata
+- name: JBoss
+  description: An open source Java EE-based application server
+  website_url: https://developers.redhat.com/products/eap
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2188/unnamed.jpg
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/protocols/jmx/pom.xml
+  detection_source: protocols/jmx/pom.xml
+  last_updated_by: Thomas Diesler
+  last_updated_on: 2010-06-24 08:50:17.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/api/pom.xml
+  detection_source: config/api/pom.xml
+  last_updated_by: Aslak Knutsen
+  last_updated_on: 2011-04-26 13:53:15.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/impl-base/pom.xml
+  detection_source: config/impl-base/pom.xml
+  last_updated_by: Felipe Moraes
+  last_updated_on: 2022-01-06 09:26:06.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testenrichers/cdi-jakarta/pom.xml
+  detection_source: testenrichers/cdi-jakarta/pom.xml
+  last_updated_by: Scott M Stark
+  last_updated_on: 2020-04-21 13:00:19.000000000 Z
+- name: TestNG
+  description: A testing framework inspired from JUnit and NUnit
+  website_url: http://testng.org/doc/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/8900/no-img-open-source.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testng/container/pom.xml
+  detection_source: testng/container/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: com.beust:jcommander
+  description: Command line parser library for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testng/core/pom.xml
+  detection_source: testng/core/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-11-27 13:24:55.000000000 Z
+- name: javax.annotation:jsr250-api
+  description: JSR-250 Reference Implementation by Glassfish
+  version: '1.0'
+  license: CDDL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testenrichers/resource/pom.xml
+  detection_source: testenrichers/resource/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-11-14 09:03:34.000000000 Z
+- name: javax.el:el-api
+  version: '2.2'
+  license: HaskellReport
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testenrichers/cdi-jakarta/pom.xml
+  detection_source: testenrichers/cdi-jakarta/pom.xml
+  last_updated_by: Scott M Stark
+  last_updated_on: 2021-06-17 03:45:11.000000000 Z
+- name: javax.enterprise:cdi-api
+  description: APIs for CDI
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testenrichers/cdi/pom.xml
+  detection_source: testenrichers/cdi/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/api/pom.xml
+  detection_source: config/api/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/test/spi/pom.xml
+  detection_source: test/spi/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.eclipse.jetty:jetty-server
+  description: The core jetty server artifact
+  version: 11.0.10
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/protocols/rest-jakarta/pom.xml
+  detection_source: protocols/rest-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-28 01:46:35.000000000 Z
+  vulnerabilities:
+  - name: OutOfMemoryError for large multipart without filename in Eclipse Jetty
+    cve_id: CVE-2023-26048
+    cve_url: https://github.com/advisories/GHSA-qw69-rqj8-6qw8
+    detected_date: Apr 20
+    severity: moderate
+    first_patched: 11.0.14
+  - name: Eclipse Jetty's cookie parsing of quoted values can exfiltrate values from
+      other cookies
+    cve_id: CVE-2023-26049
+    cve_url: https://github.com/advisories/GHSA-p26g-97m4-6q7c
+    detected_date: Apr 19
+    severity: low
+    first_patched: 11.0.14
+- name: org.eclipse.jetty:jetty-servlet
+  description: Jetty Servlet Container
+  version: 11.0.10
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/protocols/rest-jakarta/pom.xml
+  detection_source: protocols/rest-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-28 01:46:35.000000000 Z
+- name: org.jboss.arquillian.container:arquillian-container-spi
+  description: SPI for the container extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/impl-base/pom.xml
+  detection_source: container/impl-base/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.arquillian.container:arquillian-container-test-api
+  description: Integration with the Test extention for the container extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/test-impl-base/pom.xml
+  detection_source: container/test-impl-base/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.arquillian.container:arquillian-container-test-impl-base
+  description: Integration with the Test extention for the container extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/junit/container/pom.xml
+  detection_source: junit/container/pom.xml
+  last_updated_by: Matous Jobanek
+  last_updated_on: 2018-01-23 10:17:28.000000000 Z
+- name: org.jboss.arquillian.container:arquillian-container-test-spi
+  description: Integration with the Test extention for the container extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/test-impl-base/pom.xml
+  detection_source: container/test-impl-base/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.arquillian.core:arquillian-core-api
+  description: API for the Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/impl-base/pom.xml
+  detection_source: config/impl-base/pom.xml
+  last_updated_by: Felipe Moraes
+  last_updated_on: 2022-01-06 09:26:06.000000000 Z
+- name: org.jboss.arquillian.core:arquillian-core-impl-base
+  description: Impl Base for the Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/impl-base/pom.xml
+  detection_source: config/impl-base/pom.xml
+  last_updated_by: Felipe Moraes
+  last_updated_on: 2022-01-06 09:26:06.000000000 Z
+- name: org.jboss.arquillian.core:arquillian-core-spi
+  description: SPI for the Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/impl-base/pom.xml
+  detection_source: config/impl-base/pom.xml
+  last_updated_by: Felipe Moraes
+  last_updated_on: 2022-01-06 09:26:06.000000000 Z
+- name: org.jboss.arquillian.junit:arquillian-junit-container
+  description: JUnit Container Implementation for the Arquillian Project
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/protocols/jmx/pom.xml
+  detection_source: protocols/jmx/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.arquillian.test:arquillian-test-impl-base
+  description: Implementation Base for the Test integration
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/impl-base/pom.xml
+  detection_source: config/impl-base/pom.xml
+  last_updated_by: Alex Soto
+  last_updated_on: 2018-02-22 09:30:54.000000000 Z
+- name: org.jboss.arquillian.test:arquillian-test-spi
+  description: SPI for the Test integration
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/test-spi/pom.xml
+  detection_source: container/test-spi/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.resteasy:resteasy-servlet-initializer
+  description: REST and JAXRS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/protocols/rest-jakarta/pom.xml
+  detection_source: protocols/rest-jakarta/pom.xml
+  last_updated_by: Jared Anderson
+  last_updated_on: 2022-07-28 01:27:17.000000000 Z
+- name: org.jboss.shrinkwrap:shrinkwrap-api
+  description: Client View of the ShrinkWrap Project
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/spi/pom.xml
+  detection_source: container/spi/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.shrinkwrap:shrinkwrap-impl-base
+  description: Common Base for Implementations of the ShrinkWrap Project
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/container/impl-base/pom.xml
+  detection_source: container/impl-base/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec
+  description: The Java Servlet 3.0 API classes
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/protocols/servlet/pom.xml
+  detection_source: protocols/servlet/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2017-03-30 07:10:28.000000000 Z
+- name: org.jboss.weld:weld-core
+  description: Weld's implementation of CDI
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testenrichers/cdi/pom.xml
+  detection_source: testenrichers/cdi/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-11-09 10:17:17.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/junit5/core/pom.xml
+  detection_source: junit5/core/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2020-10-26 21:23:52.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/junit5/container/pom.xml
+  detection_source: junit5/container/pom.xml
+  last_updated_by: Johannes Beck
+  last_updated_on: 2021-02-23 19:12:32.000000000 Z
+- name: org.junit.platform:junit-platform-engine
+  description: Module "junit-platform-engine" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/junit5/core/pom.xml
+  detection_source: junit5/core/pom.xml
+  last_updated_by: Bartosz Majsak
+  last_updated_on: 2020-10-26 21:23:52.000000000 Z
+- name: org.junit.platform:junit-platform-launcher
+  description: Module "junit-platform-launcher" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/junit5/container/pom.xml
+  detection_source: junit5/container/pom.xml
+  last_updated_by: Johannes Beck
+  last_updated_on: 2021-02-23 19:12:32.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/config/impl-base/pom.xml
+  detection_source: config/impl-base/pom.xml
+  last_updated_by: Felipe Moraes
+  last_updated_on: 2022-01-06 09:26:06.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  version: 1.7.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testenrichers/cdi-jakarta/pom.xml
+  detection_source: testenrichers/cdi-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-12 08:55:59.000000000 Z
+- name: org.testng:testng
+  description: Testing framework for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/arquillian-core/blob/master/testng/container/pom.xml
+  detection_source: testng/container/pom.xml
+  last_updated_by: Bogdan Ilchyshyn
+  last_updated_on: 2020-03-21 10:09:07.000000000 Z
